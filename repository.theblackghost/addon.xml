@@ -6,7 +6,7 @@
         <datadir zip="true">https://raw.githubusercontent.com/blackghostaddon/repo/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>repo para los ghost</summary>
+        <summary>Black all Black Ghost</summary>
         <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>
