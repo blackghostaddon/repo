@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.theblackghost" name="Thw Black Ghost Repo" version="0.0.1" provider-name="Black Ghost">
+<addon id="repository.theblackghost" name="The Black Ghost Repo" version="0.0.1" provider-name="Black Ghost">
     <extension point="xbmc.addon.repository" name="theblackghost">
         <info>https://raw.githubusercontent.com/blackghostaddon/repo/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/blackghostaddon/repo/master/addons.xml.md5</checksum>
@@ -179,6 +179,110 @@
   </extension>
 </addon>
 
+
+
+<addon id="script.module.streamlink.base" name="Streamlink Library" version="2018.06.10.1" provider-name="Streamlink Devs, Twilight0">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.requests" version="2.12.4"/>
+    <import addon="script.module.futures" version="2.2.0"/>
+    <import addon="script.module.streamlink.crypto" version="1.4.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="resources/lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Streamlink Library</summary>
+    <description>Streamlink Library for Kodi</description>
+    <platform>all</platform>
+    <license>Simplified BSD</license>
+    <source>https://github.com/Twilight0/script.module.streamlink.base/</source>
+    <language>en</language>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+    <news>+ 2018.06.10
+- Various plugin updates
+- Added issue template
+- Improved README</news>
+  </extension>
+</addon>
+
+<addon id="script.module.streamlink.crypto" name="streamlink.crypto" version="1.4.0" provider-name="Streamlink.crypto">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pure Python implementation of the cryptographic libraries required by Streamlink</summary>
+    <source>https://github.com/Twilight0/script.module.streamlink.crypto</source>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>
+
+
+
+<addon id="script.module.streamlink.plugins" name="Streamlink Plugins" version="1.0.3" provider-name="Twilight0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.12.4"/>
+  </requires>
+  <extension point="xbmc.service"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Streamlink Plugins</summary>
+    <description>Copy your custom streamlink plugins in this Kodi plugin.</description>
+    <platform>all</platform>
+    <license>GNU GPL, version 2</license>
+    <source>https://github.com/Twilight0/script.module.streamlink.plugins</source>
+    <!--<website></website>-->
+    <!--<language></language>-->
+  </extension>
+</addon>
+
+
+<addon id="service.streamlink.plugins" name="Streamlink Plugins" version="1.0.1" provider-name="Twilight0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Streamlink Plugins</summary>
+    <description>Copy your custom streamlink plugins in this Kodi plugin.</description>
+    <platform>all</platform>
+    <license></license>
+    <source></source>
+    <website></website>
+    <language></language>
+  </extension>
+</addon>
+
+
+<addon id="service.streamlink.proxy" name="Streamlink Proxy" version="4.1.1" provider-name="Twilight0">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.streamlink.base" version="2017.02.15"/>
+        <import addon="script.module.streamlink.plugins" version="1.0.3"/>
+    </requires>
+    <extension point="xbmc.service" library="resources/lib/service.py" start="login"/>
+    <extension point="xbmc.python.pluginsource" library="options.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>en de el</language>
+        <summary>Streamlink Proxy</summary>
+        <description>Streamlink Proxy for Kodi</description>
+        <platform>all</platform>
+        <license>GPLv3</license>
+        <source>https://github.com/Twilight0/service.streamlink.proxy</source>
+        <size>172839</size>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <news>+ 4.1.1
+- Added plugins here as dependency, instead of base module
+- Bumped base module dependency to latest</news>
+    </extension>
+</addon>
 
 </addons>
 
