@@ -149,7 +149,7 @@
 
 <addon id="plugin.video.blackghost"
        name="Black Ghost"
-       version="0.0.2"
+       version="0.0.3"
        provider-name="Black">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -162,6 +162,7 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" />
+	<import addon="script.module.resolveurl" />
     <import addon="script.module.simplejson" />    
      <import addon="script.module.livestreamer" optional="true"/>
      <import addon="script.module.pyamf" optional="true"/>
