@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.theblackghost" name="Thw Black Ghost Repo" version="0.0.1" provider-name="Black Ghost">
+<addon id="repository.theblackghost" name="The Black Ghost Repo" version="0.0.1" provider-name="Black Ghost">
     <extension point="xbmc.addon.repository" name="theblackghost">
         <info>https://raw.githubusercontent.com/blackghostaddon/repo/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/blackghostaddon/repo/master/addons.xml.md5</checksum>
