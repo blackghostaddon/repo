@@ -16,7 +16,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2018.07.24"
+  version="2018.07.26"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -44,7 +44,7 @@
 </addon>
 
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.12" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.13" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -63,6 +63,7 @@
 		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
 	</extension>
 </addon>
+
 
 <addon id="script.module.slproxy" name="SLProxy" version="0.0.6" provider-name="devilsport">
   <requires>
