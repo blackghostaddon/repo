@@ -16,7 +16,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2018.08.11"
+  version="2018.08.18"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -44,7 +44,9 @@
 </addon>
 
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.13" provider-name="jsergio">
+
+
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.14" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -65,7 +67,7 @@
 </addon>
 
 
-<addon id="script.module.slproxy" name="SLProxy" version="0.0.6" provider-name="devilsport">
+<addon id="script.module.slproxy" name="SLProxy" version="0.0.7" provider-name="devilsport">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
     <import addon="script.module.requests"/>
@@ -88,7 +90,7 @@
 </addon>
 
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.20" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.21" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
