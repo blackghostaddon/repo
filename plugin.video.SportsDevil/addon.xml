@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="plugin.video.SportsDevil"
-  version="2018.08.18"
+  version="2018.08.27"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -12,6 +12,7 @@
    <import addon="script.module.requests" />   
    <import addon="plugin.video.f4mTester" />
    <import addon="script.module.slproxy" />
+   <import addon="script.module.tvone1111" />
   </requires>
   <extension 
     point="xbmc.python.pluginsource"

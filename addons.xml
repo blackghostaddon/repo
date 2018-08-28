@@ -16,7 +16,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2018.08.18"
+  version="2018.08.27"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -27,6 +27,7 @@
    <import addon="script.module.requests" />   
    <import addon="plugin.video.f4mTester" />
    <import addon="script.module.slproxy" />
+   <import addon="script.module.tvone1111" />
   </requires>
   <extension 
     point="xbmc.python.pluginsource"
@@ -45,8 +46,7 @@
 
 
 
-
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.14" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.15" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -65,6 +65,33 @@
 		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
 	</extension>
 </addon>
+
+
+<addon id="script.module.tvone1111" name="tvOne1111" version="8.1" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pyamf" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.module" library="addon.py">
+	<provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">tvOne1111</summary>
+    <description lang="en_gb">tvOne1111 script module</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
 
 
 <addon id="script.module.slproxy" name="SLProxy" version="0.0.7" provider-name="devilsport">
@@ -90,7 +117,7 @@
 </addon>
 
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.21" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.22" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -132,7 +159,7 @@
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy" 
-	     version="2.8.0" 
+	     version="2.8.7" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -141,7 +168,10 @@
   <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>executable</provides>
-  </extension>    
+  </extension>
+
+
+    
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">Proxy for f4m</summary>
