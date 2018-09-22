@@ -16,7 +16,7 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2018.09.08"
+  version="2018.09.16"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -45,7 +45,7 @@
 </addon>
 
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.15" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.16" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -116,7 +116,7 @@
 </addon>
 
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.22" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.23" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -137,6 +137,7 @@
         <website>https://www.tvaddons.co</website>
 	</extension>
 </addon>
+
 
 
 
