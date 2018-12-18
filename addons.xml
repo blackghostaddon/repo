@@ -14,6 +14,8 @@
     </extension>
 </addon>
 
+
+  <!--
 <addon
   id="plugin.video.SportsDevil"
   version="2018.09.16"
@@ -34,7 +36,7 @@
     library="default.py">
    <provides>video</provides>
   </extension>
-  <!-- <extension point="xbmc.service" library="service/streamlink_proxy.py" /> -->
+  <!-- <extension point="xbmc.service" library="service/streamlink_proxy.py" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">SportsDevil</summary>
     <description lang="en">[I]There can only be one.[/I][CR][CR]Unofficial Kodi Addon.</description>
@@ -43,9 +45,9 @@
     <platform>all</platform>
   </extension>
 </addon>
+ -->
 
-
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.16" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.21" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -116,7 +118,7 @@
 </addon>
 
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.23" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.27" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
