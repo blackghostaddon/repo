@@ -47,7 +47,7 @@
 </addon>
  -->
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.26" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.27" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -118,7 +118,7 @@
 </addon>
 
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.30" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.32" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -139,7 +139,6 @@
         <website>https://www.tvaddons.co</website>
 	</extension>
 </addon>
-
 
 
 
