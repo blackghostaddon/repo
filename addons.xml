@@ -68,7 +68,7 @@
 </addon>
 
 
-<addon id="script.module.tvone1111" name="tvOne1111" version="8.1" provider-name="RACC">
+<addon id="script.module.tvone1111" name="tvOne1111" version="13" provider-name="RACC">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.pyamf" />
@@ -184,23 +184,23 @@
 
 <addon id="plugin.video.blackghost"
        name="Black Ghost"
-       version="0.0.3"
+       version="0.0.4"
        provider-name="Black">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" />
-	<import addon="script.module.resolveurl" />
+    <import addon="script.module.resolveurl" />
+	<import addon="script.module.urlresolver" />
     <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.slproxy" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -208,7 +208,7 @@
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>BlackGhost Addon</summary>
+    <summary>BlackGhost 0.0.4 Addon</summary>
     <description>        
     </description>
     <platform>all</platform>
@@ -217,12 +217,13 @@
 
 
 
-<addon id="script.module.streamlink.base" name="Streamlink Library" version="2018.06.10.1" provider-name="Streamlink Devs, Twilight0">
+<addon id="script.module.streamlink.base" name="Streamlink Library" version="2019.03.20" provider-name="Streamlink Devs, Twilight0">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
     <import addon="script.module.requests" version="2.12.4"/>
     <import addon="script.module.futures" version="2.2.0"/>
-    <import addon="script.module.streamlink.crypto" version="1.4.0"/>
+    <import addon="script.module.streamlink.crypto" version="1.5.0"/>
+    <import addon="script.module.elementtree" optional="true"/>
   </requires>
   <extension point="xbmc.python.module" library="resources/lib/"/>
   <extension point="xbmc.addon.metadata">
@@ -233,12 +234,18 @@
     <source>https://github.com/Twilight0/script.module.streamlink.base/</source>
     <language>en</language>
     <assets>
-      <icon>resources/icon.png</icon>
+        <icon>icon.png</icon>
     </assets>
-    <news>+ 2018.06.10
-- Various plugin updates
-- Added issue template
-- Improved README</news>
+    <news>+ 2019.03.17
+- Fixed icon
+- Updated changelog.txt
+- Moved and updated six module into utils directory
+
++ 2019.03.16
+- Updated to latest upstream commit e96c725cb553027dd1ca7b1c278211b57947b05c
+
++ 2018.12.05
+- Corrected icon asset location, ensuring backwards compatibility</news>
   </extension>
 </addon>
 
