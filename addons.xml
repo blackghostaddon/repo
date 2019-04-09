@@ -353,6 +353,9 @@
   </extension>
 </addon>
 
+
+
+
 <addon id="plugin.video.quasar" name="Quasar" version="0.9.78" provider-name="scakemyer">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
