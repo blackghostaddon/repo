@@ -47,7 +47,7 @@
 </addon>
  -->
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.27" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.29" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -118,7 +118,7 @@
 </addon>
 
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.32" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.35" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -181,10 +181,9 @@
 </addon>
 
 
-
 <addon id="plugin.video.blackghost"
        name="Black Ghost"
-       version="0.0.4"
+       version="0.0.6"
        provider-name="Black">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -208,7 +207,7 @@
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>BlackGhost 0.0.4 Addon</summary>
+    <summary>BlackGhost 0.0.6 Addon</summary>
     <description>        
     </description>
     <platform>all</platform>
