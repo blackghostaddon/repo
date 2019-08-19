@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.liveproxy" name="LiveProxy" version="0.1.1" provider-name="back-to">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.streamlink" version="0.14.2.138"/>
+    <import addon="script.module.back-to-plugins" version="2018.7.18" optional="true"/>
+    <import addon="script.module.streamlink-plugins" version="0.0.0" optional="true"/>
+  </requires>
+  <extension point="xbmc.service" library="resources/lib/service.py" start="[login|startup]" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary>LiveProxy</summary>
+    <description>LiveProxy for Kodi</description>
+    <platform>all</platform>
+    <license>BSD 2-Clause Simplified License</license>
+    <source>https://github.com/back-to/liveproxy</source>
+    <website>https://github.com/back-to/liveproxy</website>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+    <news>
+0.1.1
+- If --url is used, it will always be used as an URL.
+0.1.0
+- New commands --file and --format got added, they can create valid URLs from a file for the new base64 URL style.
+- The LiveProxy URL build was simplified, a Streamlink command like can be used after it got base64 encoded, more details can be found on the website.
+0.0.4
+- Improve Streamlink default Plugins load speed
+- Custom plugins with `from streamlink.plugin.api import http` are not allowed,
+  use `self.session`
+0.0.3
+- Allow FFmpeg and RTMP streams, might not work on every platform.
+0.0.1
+- LiveProxy Test Version
+    </news>
+  </extension>
+</addon>
