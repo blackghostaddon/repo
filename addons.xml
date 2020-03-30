@@ -46,7 +46,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.38" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.40" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
@@ -66,6 +66,7 @@
         <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
     </extension>
 </addon>
+
 
 <addon id="script.module.urlresolver" name="URLResolver" version="5.0.59" provider-name="tvaddons">
     <requires>
