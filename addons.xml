@@ -46,13 +46,13 @@
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.41" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.42" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.module.python.twitch" optional="true" />
         <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-        <import addon="plugin.video.gdrive" optional="true" />
+
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
@@ -68,13 +68,12 @@
 </addon>
 
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.61" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.62" provider-name="tvaddons">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.module.python.twitch" optional="true" />
         <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-        <import addon="plugin.video.gdrive" optional="true" />
 
     </requires>
     <extension point="xbmc.python.module" library="lib" />
