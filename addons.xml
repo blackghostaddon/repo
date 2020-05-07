@@ -16,7 +16,10 @@
 </addon>
 
 
-<addon id="plugin.video.blackghost" name="Black Ghost" version="0.0.6" provider-name="Black">
+<addon id="plugin.video.blackghost"
+       name="Black Ghost"
+       version="9999999999999999999999999999999"
+       provider-name="BlackAddon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -39,7 +42,7 @@
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>BlackGhost 0.0.6 Addon</summary>
+    <summary>BlackGhost Addon</summary>
     <description>        
     </description>
     <platform>all</platform>
@@ -68,7 +71,7 @@
 </addon>
 
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.63" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.65" provider-name="tvaddons">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
