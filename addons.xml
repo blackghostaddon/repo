@@ -18,8 +18,8 @@
 
 <addon id="plugin.video.blackghost"
        name="Black Ghost"
-       version="9999999999999999999999999999999"
-       provider-name="BlackAddon">
+       version="999999999999999999999999999999999"
+       provider-name="BlackGhost">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
