@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.blackghost"
        name="Black Ghost"
-       version="999999999999999999999999999999999999.6"
+       version="999999999999999999999999999999999999.7"
        provider-name="BlackGhost">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -25,7 +25,7 @@
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>BlackGhost Addon</summary>
+    <summary>BlackGhost Addon Original v7</summary>
     <description>        
     </description>
     <platform>all</platform>
