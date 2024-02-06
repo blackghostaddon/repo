@@ -172,7 +172,7 @@
 </addon>
 
 
-<addon id="script.module.horus" name="Horus" version="1.1.7" provider-name="BlackGhost">
+<addon id="script.module.horus" name="Horus" version="1.1.9" provider-name="Caperucitaferoz">
     <requires>
         <import addon="script.module.six" />
     </requires>
@@ -199,6 +199,8 @@
         <news>
             - Añadido soporte para enlaces magnet-torrent
         </news>
+        <forum>https://t.me/KodiManiac
+        https://t.me/acestream_spanish</forum>
     </extension>
 </addon>
 
