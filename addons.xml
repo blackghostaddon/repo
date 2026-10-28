@@ -172,7 +172,7 @@
 </addon>
 
 
-<addon id="script.module.horus" name="Horus" version="1.1.9" provider-name="Caperucitaferoz">
+<addon id="script.module.horus" name="Horus" version="1.1.10" provider-name="Caperucitaferoz">
     <requires>
         <import addon="script.module.six" />
     </requires>
@@ -191,10 +191,10 @@
         <assets>
               <icon>icon.png</icon>
               <fanart>fanart.jpg</fanart>
-              <screenshot>resources/media/Captura1.png</screenshot>
-              <screenshot>resources/media/Captura2.png</screenshot>
-              <screenshot>resources/media/Captura3.png</screenshot>
-              <screenshot>resources/media/Captura4.png</screenshot>
+              <screenshot>resources/media/Captura1.jpg</screenshot>
+              <screenshot>resources/media/Captura2.jpg</screenshot>
+              <screenshot>resources/media/Captura3.jpg</screenshot>
+              <screenshot>resources/media/Captura4.jpg</screenshot>
         </assets>
         <news>
             - Añadido soporte para enlaces magnet-torrent
@@ -299,4 +299,3 @@
 </addon>
 
 </addons>
-
